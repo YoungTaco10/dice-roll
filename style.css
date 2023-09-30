@@ -1,0 +1,50 @@
+html
+{
+    background-color: beige;
+}
+button
+{
+    width: 1000px;
+    height: 200px;
+    align-self: center;
+    background-color: crimson;
+    border: 20px;
+    border-style: inset;
+    border-color: rgb(122, 9, 31);
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10em;
+}
+button:hover
+{
+    background-color: rgb(143, 12, 38);
+}
+.center
+{
+    margin-top: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#die1, #die2, #tot
+{
+    width: 1000px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: crimson;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: beige;
+}
+p
+{
+    margin: 20px;
+    background-color: black;
+    font-size: 3.5em;
+    color: crimson;
+    text-align: center;
+}
